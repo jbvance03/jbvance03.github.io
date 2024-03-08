@@ -1,0 +1,40 @@
+body{
+    background-color: #7fffd4;
+    font-family: 'Times New Roman' serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.profile-image {
+    max-width: 50%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center; 
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
